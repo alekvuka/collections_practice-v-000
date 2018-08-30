@@ -61,8 +61,8 @@ end
 def sum_array(array)
   sum = 0
   i = 0
-  while 1 < array.size
+  while i < array.size
     sum = sum + array[i]
   end
   return sum
-end 
+end
