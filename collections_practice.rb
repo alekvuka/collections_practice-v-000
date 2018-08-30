@@ -60,10 +60,14 @@ end
 
 def sum_array(array)
   sum = 0
-  i = 0
-  while i < array.length
-    sum = sum + array[i]
-    i+=1
-  end
+  #i = 0
+  #while i < array.length
+  #  sum = sum + array[i]
+  #  i+=1
+  #end
+  array.each do |num|
+    sum = sum + num
+  end 
+
   return sum
 end
