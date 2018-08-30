@@ -54,15 +54,15 @@ end
 
 def find_a(array)
   array.select do |word|
-    word[0] == "a" 
+    word[0] == "a"
   end
 end
 
 def sum_array(array)
   sum = 0
   i = 0
-  while 1 < array.size 
+  while 1 < array.size
     sum = sum + array[i]
-
-
-  
+  end
+  return sum
+end 
