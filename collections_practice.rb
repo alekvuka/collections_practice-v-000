@@ -30,11 +30,11 @@ end
 
 def swap_elements(array)
   second_element = array[3]
-  third_elemennt = array[4]
+  third_element = array[4]
 
   array[3] = third element
   array[4] = second_element
 
   array
 
-end 
+end
