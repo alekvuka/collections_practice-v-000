@@ -48,4 +48,5 @@ def kesha_maker(array)
   array.each do |word|
     return_array.push(word[2] = "$")
   end
-end 
+  return return_array
+end
