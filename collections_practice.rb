@@ -57,3 +57,12 @@ def find_a(array)
     word[0] == "a" 
   end
 end
+
+def sum_array(array)
+  sum = 0
+  i = 0
+  while 1 < array.size 
+    sum = sum + array[i]
+
+
+  
